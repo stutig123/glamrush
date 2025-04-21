@@ -84,7 +84,7 @@ const MyOrders = () => {
 
     toast({
       title: "Exchange Request Confirmed",
-      description: "Please visit our store within 2 hours. Bring your original item for a quick exchange.",
+      description: "The delivery agent will pick up the order.",
     });
     setExchangeDialogOpen(false);
     setExchangeSize('');
@@ -236,7 +236,7 @@ const MyOrders = () => {
             </div>
             <Alert>
               <AlertDescription>
-                Please visit our store within 2 hours with your original item for the exchange.
+                The delivery agent will pick up the order.
               </AlertDescription>
             </Alert>
           </div>
